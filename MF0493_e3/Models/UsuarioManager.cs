@@ -17,5 +17,14 @@ namespace MF0493_e3.Models
                 return data.First();
             }
         }
+        public static List<usuario> getAll()
+        {
+            using (MySQL_Entities db = new MySQL_Entities())
+            {
+                var data = from usr in db.usuarios                       
+                           select usr;
+                return data.ToList();
+            }
+        }
     }
 }
