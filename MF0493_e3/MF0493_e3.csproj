@@ -67,6 +67,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Modelo.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="jorgebeta92.aspx" />
     <Content Include="Models\Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Modelo.edmx</DependentUpon>
@@ -95,6 +96,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="jorgebeta92.aspx.cs">
+      <DependentUpon>jorgebeta92.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jorgebeta92.aspx.designer.cs">
+      <DependentUpon>jorgebeta92.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\libro.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
