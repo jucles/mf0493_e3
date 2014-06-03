@@ -67,7 +67,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Modelo.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="jucles.aspx" />
+    <Content Include="berna902.aspx" />
     <Content Include="Models\Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Modelo.edmx</DependentUpon>
@@ -81,7 +81,6 @@
       <DependentUpon>Modelo.edmx</DependentUpon>
       <LastGenOutput>Modelo.cs</LastGenOutput>
     </Content>
-    <Content Include="nectorosales.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -95,15 +94,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="jucles.aspx.cs">
-      <DependentUpon>jucles.aspx</DependentUpon>
+    <Compile Include="berna902.aspx.cs">
+      <DependentUpon>berna902.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="jucles.aspx.designer.cs">
-      <DependentUpon>jucles.aspx</DependentUpon>
+    <Compile Include="berna902.aspx.designer.cs">
+      <DependentUpon>berna902.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\libro.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
@@ -127,13 +126,6 @@
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UsuarioManager.cs" />
-    <Compile Include="nectorosales.aspx.cs">
-      <DependentUpon>nectorosales.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="nectorosales.aspx.designer.cs">
-      <DependentUpon>nectorosales.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
