@@ -68,6 +68,9 @@
       <LastGenOutput>Modelo.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="berna902.aspx" />
+    <Content Include="imembrilla.aspx" />
+    <Content Include="jucles.aspx" />
+    <Content Include="mlopezpd.aspx" />
     <Content Include="Models\Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Modelo.edmx</DependentUpon>
@@ -81,6 +84,7 @@
       <DependentUpon>Modelo.edmx</DependentUpon>
       <LastGenOutput>Modelo.cs</LastGenOutput>
     </Content>
+    <Content Include="nectorosales.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -104,6 +108,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="imembrilla.aspx.cs">
+      <DependentUpon>imembrilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imembrilla.aspx.designer.cs">
+      <DependentUpon>imembrilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jucles.aspx.cs">
+      <DependentUpon>jucles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jucles.aspx.designer.cs">
+      <DependentUpon>jucles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mlopezpd.aspx.cs">
+      <DependentUpon>mlopezpd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mlopezpd.aspx.designer.cs">
+      <DependentUpon>mlopezpd.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\libro.cs">
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
@@ -126,6 +151,13 @@
       <DependentUpon>Modelo.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UsuarioManager.cs" />
+    <Compile Include="nectorosales.aspx.cs">
+      <DependentUpon>nectorosales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nectorosales.aspx.designer.cs">
+      <DependentUpon>nectorosales.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
